@@ -1,0 +1,12 @@
+<div class="col-lg-3 col-md-4 col-xs-6">
+	<div class="chat_background">
+		<%= link_to chat_room_path(chat_room) do %>
+		    <%= gravatar_for chat_room.user %>
+		<% end %>
+
+		<%= link_to "Enter #{chat_room.title}", 
+			chat_room_path(chat_room), 
+			html_options: {:class=>'d-block mb-4 h-100'}
+		%>
+	</div>
+</div>

@@ -1,0 +1,7 @@
+<h1 class="my-4 text-center text-lg-left">Recent Chats</h1>
+<p class="lead"><%= link_to 'New chat room', new_chat_room_path, class: 'btn btn-primary' %></p>
+
+<div class="row text-center text-lg-left">
+	<%= render @chat_rooms %>
+</div>
+
