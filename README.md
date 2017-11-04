@@ -5,20 +5,29 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.4.2
 
-* System dependencies
-
-* Configuration
+* Rails version 5.1.4
 
 * Database creation
+	rails db:create
+	rails db:migrate
+	rails db:seed
+	
+* Sample Users
+	Email: trainer1@test.com
+	Password: 12345678
 
-* Database initialization
+	Email: trainer2@test.com
+	Password: 12345678
 
-* How to run the test suite
+	Email: trainer1@test.com
+	Password: 12345678
 
-* Services (job queues, cache servers, search engines, etc.)
+	Email: user1@test.com
+	Password: 12345678
 
-* Deployment instructions
+	Email: user2@test.com
+	Password: 12345678
 
-* ...
+
